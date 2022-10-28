@@ -4,6 +4,7 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 20px;
+  margin: 0 auto;
 }
 
 .header {
@@ -43,7 +44,9 @@
   font-weight: bold;
 }
 
-/* Add the hover state styles for .nav__link here */
+.nav__link:hover {
+  color: #1f69c9;
+}
 
 .header__title {
   font-size: 66px;
@@ -63,6 +66,9 @@
 .header__image {
   max-width: 636px;
   z-index: 1;
+  position: absolute;
+  top: 135px;
+  right: 20px;
 }
 
 .header__footer {
@@ -82,7 +88,9 @@
   text-decoration: none;
 }
 
-/* Add the hover state styles for .header__link here */
+.header__link:hover {
+  color: #1f69c9;
+}
 
 .header__address {
   margin: 0;
@@ -110,7 +118,14 @@
   margin: 24px 0 0;
 }
 
-/* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
+.staff__cards-content {
+  max-width: 760px;
+  margin: 68px auto 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
 
 .card {
   background-color: #fff;
@@ -120,8 +135,6 @@
 }
 
 .card__content {
-  width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: column;
   width: 360px;
@@ -217,7 +230,7 @@
   margin: 40px 0 60px;
 }
 
-.events__more {
+.events__more:hover {
   margin-top: 60px;
   color: #2f80ed;
   text-decoration: none;
@@ -312,11 +325,12 @@
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
-  /* Add styles */
+  display: flex;
+  flex-basis: content;
 }
 
 .step {
-  /* Add styles */
+  margin: 220px auto 40px;
 }
 
 .step__title {
@@ -343,10 +357,11 @@
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
+  display: flex;
 }
 
 .about__title {
-  margin: 0;
+  margin: 0px;
   font-size: 20px;
   line-height: 30px;
   font-weight: 500;
@@ -357,19 +372,27 @@
 .about__content {
   font-size: 20px;
   line-height: 30px;
-  font-weight: 400;
+  font-weight: 440;
   max-width: 660px;
+  margin-left: 120px;
+  z-index: 1;
 }
 
 .about__paragraph {
+  font-size: 20px;
   margin: 0;
+  padding: 0px 0px 32px;
 }
 
 .about__circle {
   background-color: #2f80ed;
-  width: 495px;
-  height: 495px;
+  width: 500px;
+  height: 460px;
   border-radius: 50%;
+  position: relative;
+  bottom: 190px;
+  right: 1100px;
+  z-index: 0;
 }
 
 .footer {
@@ -377,6 +400,13 @@
 }
 
 .footer__columns {
+  padding: 60px 60px 80px 102px;
+  background-color: #000000;
+  color: #f2f2f2;
+}
+
+.footer__column {
+  position: relative;
 }
 
 .footer__column_content_hours {
@@ -386,6 +416,8 @@
 }
 
 .footer__logo {
+  width: 116px;
+  height: 21px;
 }
 
 .footer__list {
