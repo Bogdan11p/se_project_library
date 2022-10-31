@@ -45,7 +45,7 @@
 }
 
 .nav__link:hover {
-  color: #1f69c9;
+  color: #491fc9;
 }
 
 .header__title {
@@ -163,8 +163,7 @@
   font-size: 14px;
   line-height: 20px;
   color: #838383;
-  /* Auto margins applied on a flex item automatically extend specified margin to occupy the extra space in the flex container */
-  /* In our case, this pushes the element down to the bottom */
+
   margin-top: auto;
 }
 
@@ -243,8 +242,6 @@
 .events__more:hover {
   color: #1f69c9;
 }
-
-/* Add the hover state styles for .events__more here */
 
 .events__cover {
   flex-grow: 1;
@@ -430,7 +427,6 @@
 }
 
 .footer__list {
-  /* The code below removes the default browser styles for lists */
   list-style-type: none;
   padding: 0;
   margin: 0;
