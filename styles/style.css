@@ -45,7 +45,7 @@
 }
 
 .nav__link:hover {
-  color: #491fc9;
+  color: #1f69c9;
 }
 
 .header__title {
@@ -443,6 +443,10 @@
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
+}
+
+.footer__column-link:hover {
+  color: #c1c1c1;
 }
 
 .footer__social-icon {
