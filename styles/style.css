@@ -5,7 +5,6 @@
   font-size: 16px;
   line-height: 20px;
   margin: 0 auto;
-  
 }
 
 .header {
@@ -331,11 +330,11 @@
   padding: 0;
   margin: 100px 0 0;
   display: flex;
-  flex-basis: content;
+  justify-content: center;
+  gap: 40px;
 }
 
 .step {
-  gap: 40px;
   width: 220px;
 }
 
@@ -385,13 +384,13 @@
 }
 
 .about__paragraph {
-font-size: 20px;
-margin: 0;
-padding: 0px 0px 32px;
+  font-size: 20px;
+  margin: 0;
+  padding: 0px 0px 32px;
 }
 
 .about__paragraph:last-of-type {
-padding: 0;
+  padding: 0;
 }
 
 .about__circle {
@@ -438,17 +437,19 @@ padding: 0;
   padding: 0;
   margin: 0;
 }
-.footer__list-item: {
-padding-bottom:  16px;
+.footer__list-item {
+  padding-bottom: 16px;
 }
 .footer__list-item:last-of-type {
-padding-bottom: 0;
+  padding-bottom: 0;
 }
 
 .footer__column-heading {
   padding-bottom: 20px;
   font-size: 16px;
   line-height: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .footer__column-link {
